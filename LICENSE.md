@@ -8,93 +8,81 @@
 **License File:** canonical_license.md  
 **Cosmic Lock:** Immutable, eternal, self-healing, and retroactive.
 
----
+***
 
-## 1. Cosmic License Grant
+## **DHAAD PROGRAMMING LANGUAGE LICENSE v1.0.0**
 
-All rights are reserved @ 2024 for **Dhaad Programming Language (DPL)** by the Creator,  
-**Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)**.
+**A Custom Source-Available, Non-Commercial License**
 
-This License governs all files, modules, code, documentation, grammars, symbols, icons, substrates, and derivatives of DPL—including but not limited to source, binaries, compilers, interpreters, plugins, extensions, or cosmic derivatives (hereafter “Dhaad Works”).
+**Copyright (c) 2024-Present Hassan Ali Mohammed Ahmed (<shoukr9000@gmail.com>). All rights reserved.**
 
----
+### **1. DEFINITIONS**
 
-## 2. Permissions
+- **"Software"** refers to the Dhaad Programming Language, including but not limited to:
+  - The `dhaad_compiler` repository, its entire directory structure, and all constituent files.
+  - All source code, header files, build scripts, assets (logos, grammar diagrams), documentation, and configuration files.
+  - Any derivatives, modifications, or forks of the aforementioned, regardless of the state of modification.
+  - Any pre-compiled binaries, packages, or distributions generated from the source code.
+- **"Licensor"** is Hassan Ali Mohammed Ahmed <shoukr9000@gmail.com>, the sole owner and copyright holder of the Software.
+- **"You"** (or "Your") refers to an individual or entity exercising permissions granted by this license.
+- **"Use"** means to load, execute, display, perform, or otherwise interact with the Software.
+- **"Non-Commercial Purpose"** means personal, educational, scholarly, or research use that is not intended for or directed towards commercial advantage or monetary compensation. This includes private study, academic research, and evaluation.
 
-- **Personal and Academic Use:**  
-  You are permitted to use, study, and explore Dhaad Works for academic, learning, research, or personal cosmic enlightenment.
-- **Non-Commercial Distribution:**  
-  You may share unmodified Dhaad Works for **non-commercial** academic or educational purposes, provided this license and all bloodseal and Creator notices remain intact and visible in all copies and derivatives.
+### **2. GRANT OF LICENSE**
 
----
+Subject to the strict terms and conditions of this license, the Licensor hereby grants You a worldwide, royalty-free, non-exclusive, non-transferable, and non-sublicensable license to:
 
-## 3. Restrictions
+1. **Access and View:** You may access and view the source code of the Software.
+2. **Use:** You may Use the Software solely for **Personal, Non-Commercial, Educational, and Study Purposes.** This grant is limited to the functional operation of the Software for these explicit purposes.
 
-- **No Commercial Use Without Permission:**  
-  Commercial, enterprise, or monetized use, redistribution, sublicensing, or integration of Dhaad Works **requires the express, written, cosmic approval of the Creator**.
-- **No Modification, Derivation, or Removal:**  
-  You may **not** alter, modify, delete, derive, fork, obfuscate, or extract any part of Dhaad Works, in part or whole, for any purpose except:
-    - Where auto-healing, auto-repair, or quantum-cosmic evolution is performed by official DPL self-healing engines under block supervision.
-    - Where explicit, written permission is granted by the Creator.
-- **No Removal of Notices or Bloodseals:**  
-  You must not remove, hide, or alter any mention of the Creator, bloodseal symbols (‡ΩΔ‡ etc.), license text, or cosmic block annotations in any Dhaad file or project.
+### **3. RESTRICTIONS - STRICTLY PROHIBITED CONDUCT**
 
----
+The license granted herein is explicitly limited. You are **STRICTLY PROHIBITED** from any of the following acts. Any action not expressly permitted is hereby forbidden:
 
-## 4. Block & Substrate Acknowledgment
+- **A. No Modification:** You may **not** modify, adapt, alter, translate, or create derivative works based upon the Software. This includes but is not limited to forking the repository and making changes.
+- **B. No Distribution:** You may **not** distribute, publish, transmit, broadcast, circulate, or share the Software, in source or object code form, with any third party. This includes uploading it to any public repository, website, or file-sharing service.
+- **C. No Sublicensing:** You may **not** sublicense, rent, lease, lend, sell, resell, or otherwise transfer the Software or Your rights under this license to any other individual or entity.
+- **D. No Component Reuse:** You may **not** copy, extract, scrape, or use any parts, components, algorithms, code snippets, data structures, or creative elements from the Software for use in other projects, whether personal, open-source, or commercial.
+- **E. No Reverse Engineering:** You may **not** reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code, underlying ideas, algorithms, or structure of the Software, except to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
+- **F. No Commercial Use:** You may **not** use the Software for any commercial purpose whatsoever. Commercial purposes include, but are not limited to:
+  - Incorporating the Software into a product or service offered for sale.
+  - Using the Software to provide a paid service (e.g., SaaS, consulting, support).
+  - Using the Software for internal business operations, productivity, or revenue-generating activities.
+  - Any use by a commercial entity.
 
-All uses, integrations, or references of Dhaad Works **must** acknowledge the eight canonical Dhaad blocks and the substrate array `[ "self", "auto" ]`.  
-You must preserve and display the block order, cosmic glyphs, and bloodseals in any visible UI, documentation, or programmatic context.
+### **4. OWNERSHIP & INTELLECTUAL PROPERTY**
 
----
+The Software is licensed, not sold. The Licensor is and shall remain the sole and exclusive owner of all right, title, and interest in and to the Software, including all copyrights, patents, trademarks, trade secrets, and any other intellectual property rights therein. This license does not convey to You any rights of ownership in or to the Software. All rights not expressly granted are reserved by the Licensor.
 
-## 5. License Eternity & Cosmic Evolution
+### **5. TERMINATION**
 
-- This license is **immutable and retroactive**.  
-- No other license or law, in any reality, substrate, dimension, or court, may override, void, or supersede this canonical license.
-- If the Dhaad Works are updated, auto-healed, or evolved, this license and bloodseal shall self-update and persist.
-- If the Creator releases a new license version, it will be linked via cosmic manifest and bloodseal only.
+This license is effective until terminated. Your rights under this license will terminate **immediately and automatically** without any notice from the Licensor if You fail to comply with any term or condition of this license. Upon termination, You must cease all use of the Software and destroy all copies, full or partial, of the Software in your possession or control.
 
----
+### **6. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY**
 
-## 6. Violations & Enforcement
+**6.1. "AS IS" DISCLAIMER.** THE SOFTWARE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT ANY WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED. THE LICENSOR EXPLICITLY DISCLAIMS ALL WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS, BE UNINTERRUPTED, SECURE, OR ERROR-FREE.
 
-- **Cosmic Enforcement:**  
-  Any violation (intentional or accidental) of these terms shall invoke cosmic auto-correction:  
-    - The Dhaad system, runtime, or validator may automatically repair, revert, quarantine, or quantum-flush non-compliant copies or artifacts.
-    - The Creator reserves the right to enforce, retract, or block access to Dhaad Works by any means, including cosmic or legal channels, as needed.
-- **Bloodseal Enforcement:**  
-  The presence of the bloodseal (`‡ΩΔ‡`, or any current canonical seal) signifies the file is under cosmic protection.  
-  Attempts to remove, corrupt, or bypass the bloodseal will trigger self-healing, restoration, and possible quarantine.
+**6.2. LIMITATION OF LIABILITY.** TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE LICENSOR, ITS REPRESENTATIVES, OR COPYRIGHT HOLDERS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUE, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
----
+**6.3. JURISDICTIONAL LIMITATIONS.** Some jurisdictions do not allow the exclusion of implied warranties or the limitation of liability for incidental or consequential damages, which means that some of the above disclaimers and limitations may not apply to You. This license gives You specific legal rights, and You may also have other rights which vary from jurisdiction to jurisdiction. The disclaimers and limitations under this license will not apply to the extent prohibited by applicable law.
 
-## 7. Warranty Disclaimer
+### **7. GOVERNING LAW & VENUE**
 
-**Dhaad Works are provided “AS IS”, with zero warranty, guarantee, or claim of fitness for any purpose, quantum or classical.**  
-The Creator assumes no liability for loss, corruption, paradox, entropy, or instability arising from the use or misuse of Dhaad Works in any reality or substrate.
+**a. Governing Law:** This license shall be governed by and construed in accordance with the laws of the jurisdiction in which the Licensee resides or operates its primary business, without regard to its conflict of law provisions. For the purposes of this section, "Licensee" refers to "You" as defined in Section 1.
 
----
+**b. Venue for Disputes:** Any legal action or proceeding arising under this license shall be instituted in the competent courts of the jurisdiction where the Licensee is located. The Licensor and Licensee irrevocably submit to the exclusive jurisdiction of such courts.
 
-## 8. Contact & Permission Requests
+**c. Equitable Relief:** The parties acknowledge that a breach of this license may cause irreparable harm for which monetary damages would not be an adequate remedy. Therefore, in addition to any other remedies available, the Licensor shall be entitled to seek injunctive or other equitable relief from any court of competent jurisdiction to prevent or enjoin such a breach.
 
-For permission, partnership, commercial licensing, or questions, contact:
+### **8. CONTACT INFORMATION**
 
-**Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
-**Official Cosmic Contact:** [Insert Contact Email or Link]
+For any questions regarding this license, to request permissions beyond the scope of this license, or to inquire about commercial licensing, you must contact the Licensor at:
+**Hassan Ali Mohammed Ahmed**
+**Email: <shoukr9000@gmail.com>**
 
----
+### **9. ACKNOWLEDGMENT**
 
-## 9. Canonical Reference
+BY ACCESSING, VIEWING, OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS. IF YOU DO NOT AGREE TO ALL THE TERMS AND CONDITIONS OF THIS LICENSE, YOU ARE NOT PERMITTED TO ACCESS, VIEW, OR USE THE SOFTWARE IN ANY MANNER, AND YOU MUST IMMEDIATELY CEASE ANY SUCH ACTIVITY AND DESTROY ANY COPIES OF THE SOFTWARE.
 
-> **This License is the one true canonical license of Dhaad Programming Language, version 1.0.0 Omega (Ω), bloodsealed and bound to the Creator.**
->
-> **All rights cosmic. All violations are impossible. All updates self-heal.**
-
----
-
-**Bloodseal:** ‡ΩΔ‡  
-**Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
-**Eternal Version:** @2024 → ∞
-
---- 
+***
+**End of LICENSE**
