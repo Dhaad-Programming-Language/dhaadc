@@ -3,7 +3,7 @@
 **Version:** 1.0.0 Omega (Ω)  
 **Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
 **Bloodseal:** ‡ΩΔ‡  
-**blocks:** iDhaad, vDhaad, fDhaad, lDhaad, cDhaad, mDhaad, uDhaad, sDhaad  
+**blocks:** iDh, vDh, fDh, lDh, cDh, qDh, wDh, mDh, uDh, sDh  
 **Substrates:** `[ "self", "auto" ]` — For all true real-world systems, realities, substrates, and futures.  
 **License File:** canonical_license.md  
 **Cosmic Lock:** Immutable, eternal, self-healing, and retroactive.
