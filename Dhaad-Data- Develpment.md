@@ -1,3 +1,13 @@
+# **Dhaad Programming Language** (v1.3.0 Omnega) 
+
+> **Version:** 1.3.0 Omega (Ω)  
+> **Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
+> **License:** All rights are reserved @ 2024 for (Dhaad Programming Language) by the Creator.  
+> **Substrates:** `[ "self", "auto" ]` — for all true real-world systems  
+> **Bloodseal:** `‡ΩΔ‡`  
+> **Blocks:** dDh, vDh, fDh, lDh, qDh, wDh, cDh, mDh, uDh, sDhaad
+
+---
 
 # **Dhaad Data Development: Unified Data Science, Engineering & Machine Learning**
 
