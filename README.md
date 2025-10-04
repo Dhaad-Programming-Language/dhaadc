@@ -10,7 +10,7 @@
 # **Dhaad Programming Language: The Universal Outcome Command Language**
 
 ## **Keywords & Tags**
-`programming-language` `systems-programming` `domain-specific` `outcome-oriented` `explicit-programming` `compiler-design` `language-design` `formal-methods` `safety-critical` `robotics` `quantum-computing` `iot` `ai-integration` `stream-processing` `functional-programming` `systems-architecture` `developer-tools` `ide-integration` `static-analysis` `dynamic-analysis`
+`programming-language` `systems-programming` `domain-specific` `outcome-oriented` `explicit-programming` `compiler-design` `language-design` `formal-methods` `safety-critical` `robotics` `quantum-computing` `iot` `ai-integration` `stream-processing` `functional-programming` `systems-architecture` `developer-tools` `ide-integration` `static-analysis` `dynamic-analysis` `dhaad-data-development` `data-science` `data-engineering` `machine-learning` `mlops` `data-ops` `feature-store` `data-lineage` `data-quality` `unified-data` `data-pipelines` `ml-pipelines` `data-governance` `data-products` `enterprise-data` `data-collaboration`
 
 ---
 
@@ -262,7 +262,7 @@ In an era where software controls physical systems, AI makes autonomous decision
 
 ---
 
-**Tags:** `dhaad` `programming-language` `outcome-oriented` `systems-programming` `domain-specific` `explicit-programming` `safety-critical` `robotics` `quantum-computing` `iot` `ai-integration` `functional-programming` `developer-tools` `static-analysis` `formal-methods`
+**Tags:** `dhaad` `programming-language` `outcome-oriented` `systems-programming` `domain-specific` `explicit-programming` `safety-critical` `robotics` `quantum-computing` `iot` `ai-integration` `functional-programming` `developer-tools` `static-analysis` `formal-methods` `dhaad-data-development` `data-science` `data-engineering` `machine-learning` `mlops` `data-ops` `feature-store` `data-lineage` `data-quality` `unified-data` `data-pipelines` `ml-pipelines` `data-governance` `data-products` `enterprise-data` `data-collaboration`
 
 ---
 
