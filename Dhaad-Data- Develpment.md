@@ -1,4 +1,4 @@
-# **Dhaad Programming Language** (v1.3.0 Omnega) 
+# **Dhaad Programming Language** (v1.3.0 Omega) 
 
 > **Version:** 1.3.0 Omega (Ω)  
 > **Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
