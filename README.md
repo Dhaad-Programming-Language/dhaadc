@@ -17,7 +17,7 @@
 # **Dhaad Programming Language: Commanding Computational Destiny**
 
 ## **The Vision**
-Dhaad (ضَاد) is a revolutionary programming language designed for the era of intelligent, integrated systems. Named after the distinctive Arabic letter "Ḍād" that defines the language of depth and precision, Dhaad transforms programming from managing syntax to **explicitly commanding the destiny of every computational outcome**. Dhaad is the first programming language to truly unify software, physical systems, and artificial intelligence under a single, coherent programming model.
+Dhaad (ضَاد) is a revolutionary programming language designed for the era of intelligent, integrated systems. Named after the distinctive Arabic letter "Ḍād" that defines the language of depth and precision, Dhaad transforms programming from managing syntax to **explicitly commanding the destiny of every computational outcome**. Dhaad is the **first programming language** to truly unify **software, physical systems, and artificial intelligence** under a single, coherent programming model.
 
 ## **Core Philosophy: The Universal Outcome Principle**
 
