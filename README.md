@@ -25,7 +25,7 @@ Now **fully reconciled** with the complete Dhaad Specification v6.0.0 (all 26 pa
 
 ## Executive Summary
 
-Dhaad (ضَاد) is the world's first **Universal Adaptive Outcome Command Language** — a professional-grade, future-proof programming language that intelligently orchestrates execution while preserving semantic intent across all 116 computational domains.
+Dhaad (ضَ) is the world's first **Universal Adaptive Outcome Command Language** — a professional-grade, future-proof programming language that intelligently orchestrates execution while preserving semantic intent across all 116 computational domains.
 
 ### Key Statistics (Build-Verified)
 
