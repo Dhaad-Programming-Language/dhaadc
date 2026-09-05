@@ -19,7 +19,7 @@
 # **Dhaad Programming Language: Commanding Adaptive Computational Destiny**
 
 ## **The Vision: Intelligence in Execution**
-Dhaad (ضَاد) is the world's first **adaptive programming language** that intelligently orchestrates execution while preserving semantic intent. Named after the distinctive Arabic letter "Ḍād" that defines linguistic depth, Dhaad transforms programming from static computation to **dynamic, context-aware outcome commanding** across all computational domains.
+Dhaad (ضَ) is the world's first **adaptive programming language** that intelligently orchestrates execution while preserving semantic intent. Named after the distinctive Arabic letter "Ḍād" that defines linguistic depth, Dhaad transforms programming from static computation to **dynamic, context-aware outcome commanding** across all computational domains.
 
 ## **Core Philosophy: The Adaptive Outcome Principle**
 
