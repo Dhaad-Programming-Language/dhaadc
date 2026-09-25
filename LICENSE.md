@@ -1,88 +1,688 @@
-# DHAAD PROGRAMMING LANGUAGE (DPL) — CANONICAL COSMIC LICENSE
+```markdown
+# DHAAD MANAGED SOURCE-AVAILABLE LICENSE (DMSAL)
+## Version 2.1.0 — Monetization & Ethical Ownership Edition
+### Professional Legal Revision — Build-Verified
+### Supersedes DMEOL-2.0-Universal
 
-**Version:** 1.0.0 Omega (Ω)  
-**Creator:** Hassan Ali Mohammed Ahmed (Hassan A. Shoukr)  
-**Bloodseal:** ‡ΩΔ‡  
-**blocks:** iDh, vDh, fDh, lDh, cDh, qDh, wDh, mDh, uDh, sDh  
-**Substrates:** `[ "self", "auto" ]` — For all true real-world systems, realities, substrates, and futures.  
-**License File:** canonical_license.md  
-**Cosmic Lock:** Immutable, eternal, self-healing, and retroactive.
+---
 
-***
+```dhaad
+#~> ====================================================================
+#~> DHAAD MANAGED SOURCE-AVAILABLE LICENSE (DMSAL)
+#~> VERSION: 2.1.0 — PROFESSIONAL EDITION
+#~> STATUS: AUTHORITATIVE — LEGALLY BINDING — PERPETUAL
+#~> REVISION: BUILD-VERIFIED — ALL FIGURES UPDATED
+#~> DATE: 2026-09-25
+#~> SUPERSEDES: DMEOL-2.0-Universal (2026-05-10)
+#~> ====================================================================
+#~> OWNER:            Hassan Ali Mohammed Ahmed Shoukr (Hassan A. Shoukr)
+#~> ORGANIZATION:     Dhaad Organization
+#~> HQ:               Kingdom of Saudi Arabia
+#~> GOVERNING LAW:    International Law — All Nations — All Jurisdictions
+#~> JURISDICTION:     WORLD-WIDE — ALL COUNTRIES — ALL TERRITORIES
+#~> DEPOSIT:          USA — KSA — EGYPT (10% Source Code)
+#~> COPYRIGHT:        © 2024-2026 Dhaad Organization. ALL RIGHTS RESERVED.
+#~>
+#~> REGISTRATIONS:
+#~>   COPYRIGHT:      SA-261295185201 (Saudi Arabia)
+#~>   PATENT (PCT):   PCT/SA-1020266164/DHAAD (2026-07-15)
+#~>   TRADEMARK:      SA-1267997 (Pending)
+#~>
+#~> LICENSE MODEL:    MANAGED SOURCE-AVAILABLE (MSA)
+#~>                   NOT OSI-Approved — Source-Available with Restrictions
+#~> ====================================================================
+```
 
-## **DHAAD PROGRAMMING LANGUAGE LICENSE v1.0.0**
+---
 
-**A Custom Source-Available, Non-Commercial License**
+# PART ONE: DEFINITIONS AND LEGAL TERMINOLOGY
 
-**Copyright (c) 2024-Present Hassan Ali Mohammed Ahmed (<shoukr9000@gmail.com>). All rights reserved.**
+## Article 1: Fundamental Definitions
 
-### **1. DEFINITIONS**
+**1.1 — The Protected Work:**
+The Dhaad Programming Language (Dhaad ض) in all its current and future 
+components across **all three development stages**, including but not limited to:
 
-- **"Software"** refers to the Dhaad Programming Language, including but not limited to:
-  - The `dhaad_compiler` repository, its entire directory structure, and all constituent files.
-  - All source code, header files, build scripts, assets (logos, grammar diagrams), documentation, and configuration files.
-  - Any derivatives, modifications, or forks of the aforementioned, regardless of the state of modification.
-  - Any pre-compiled binaries, packages, or distributions generated from the source code.
-- **"Licensor"** is Hassan Ali Mohammed Ahmed <shoukr9000@gmail.com>, the sole owner and copyright holder of the Software.
-- **"You"** (or "Your") refers to an individual or entity exercising permissions granted by this license.
-- **"Use"** means to load, execute, display, perform, or otherwise interact with the Software.
-- **"Non-Commercial Purpose"** means personal, educational, scholarly, or research use that is not intended for or directed towards commercial advantage or monetary compensation. This includes private study, academic research, and evaluation.
+### First: Stage Zero — Bootstrap (Phases 0-10)
 
-### **2. GRANT OF LICENSE**
+**A) Source Code Components:**
 
-Subject to the strict terms and conditions of this license, the Licensor hereby grants You a worldwide, royalty-free, non-exclusive, non-transferable, and non-sublicensable license to:
+| Component            | Count     | Verification   |
+| -------------------- | --------- | -------------- |
+| Core Libraries       | 27        | BUILD-VERIFIED |
+| Executables          | 7         | BUILD-VERIFIED |
+| Tokens               | 592       | BUILD-VERIFIED |
+| Node Kinds           | 740       | BUILD-VERIFIED |
+| Handlers             | 221       | BUILD-VERIFIED |
+| Constraints          | 137       | BUILD-VERIFIED |
+| Modes                | 148       | BUILD-VERIFIED |
+| Error Codes          | 1,277     | BUILD-VERIFIED |
+| Lexical Kinds        | 1,423     | BUILD-VERIFIED |
+| Test Cases           | 6,351     | BUILD-VERIFIED |
+| Assertions           | 1,068,809 | BUILD-VERIFIED |
+| Lean 4 Proof Modules | 8         | BUILD-VERIFIED |
+| Fuzz Targets         | 3         | BUILD-VERIFIED |
 
-1. **Access and View:** You may access and view the source code of the Software.
-2. **Use:** You may Use the Software solely for **Personal, Non-Commercial, Educational, and Study Purposes.** This grant is limited to the functional operation of the Software for these explicit purposes.
+**B) Technical Specification:**
+- Specification v6.0.0 — 116 systems — 26 layers
 
-### **3. RESTRICTIONS - STRICTLY PROHIBITED CONDUCT**
+**C) Development Documents:**
+- Master Prompts — Phases 0-10 — versions v25.0.0 through v33.0.0
 
-The license granted herein is explicitly limited. You are **STRICTLY PROHIBITED** from any of the following acts. Any action not expressly permitted is hereby forbidden:
+**D) Generated Unicode Tables:**
+- Unicode 15.1.0 — 179,761 bytes — SHA-256 verified
 
-- **A. No Modification:** You may **not** modify, adapt, alter, translate, or create derivative works based upon the Software. This includes but is not limited to forking the repository and making changes.
-- **B. No Distribution:** You may **not** distribute, publish, transmit, broadcast, circulate, or share the Software, in source or object code form, with any third party. This includes uploading it to any public repository, website, or file-sharing service.
-- **C. No Sublicensing:** You may **not** sublicense, rent, lease, lend, sell, resell, or otherwise transfer the Software or Your rights under this license to any other individual or entity.
-- **D. No Component Reuse:** You may **not** copy, extract, scrape, or use any parts, components, algorithms, code snippets, data structures, or creative elements from the Software for use in other projects, whether personal, open-source, or commercial.
-- **E. No Reverse Engineering:** You may **not** reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code, underlying ideas, algorithms, or structure of the Software, except to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
-- **F. No Commercial Use:** You may **not** use the Software for any commercial purpose whatsoever. Commercial purposes include, but are not limited to:
-  - Incorporating the Software into a product or service offered for sale.
-  - Using the Software to provide a paid service (e.g., SaaS, consulting, support).
-  - Using the Software for internal business operations, productivity, or revenue-generating activities.
-  - Any use by a commercial entity.
+**E) All accompanying documentation, instructions, and examples.**
 
-### **4. OWNERSHIP & INTELLECTUAL PROPERTY**
+### Second: Stage One — Self-Hosting (2027)
+- **P)** The self-hosting compiler — written in Dhaad itself
+- **Q)** Semantic equivalence tests (Stage 0 vs Stage 1)
+- **R)** Migration tools — from Stage 0 to Stage 1
+- **S)** All intermediate versions (Stage 1.x)
 
-The Software is licensed, not sold. The Licensor is and shall remain the sole and exclusive owner of all right, title, and interest in and to the Software, including all copyrights, patents, trademarks, trade secrets, and any other intellectual property rights therein. This license does not convey to You any rights of ownership in or to the Software. All rights not expressly granted are reserved by the Licensor.
+### Third: Stage Two — Full Ecosystem (2028-2029)
+- **T)** The complete standard library (dhaad-std) — 50+ modules
+- **U)** The official package registry — 100+ packages
+- **V)** Integrated development tools (VS Code, IntelliJ)
+- **W)** Documentation and training platforms
+- **X)** Cloud service integration systems
 
-### **5. TERMINATION**
+### Fourth: Comprehensive Scope
+- **AA)** All future modifications and additions of any type
+- **BB)** All embedded technical know-how and construction methods
+- **CC)** All derivative works from any stage
+- **DD)** All future versions at any stage
 
-This license is effective until terminated. Your rights under this license will terminate **immediately and automatically** without any notice from the Licensor if You fail to comply with any term or condition of this license. Upon termination, You must cease all use of the Software and destroy all copies, full or partial, of the Software in your possession or control.
+**1.2 — The Owner:**
+Mr. **Hassan Ali Mohammed Ahmed Shoukr**, author, inventor, and sole 
+legal owner of the Protected Work.
 
-### **6. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY**
+**1.3 — The Organization:**
+**Dhaad Organization** — a legal entity under establishment, headquartered 
+in the Kingdom of Saudi Arabia, representing the Owner in all legal and 
+licensing matters.
 
-**6.1. "AS IS" DISCLAIMER.** THE SOFTWARE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT ANY WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED. THE LICENSOR EXPLICITLY DISCLAIMS ALL WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. THE LICENSOR DOES NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS, BE UNINTERRUPTED, SECURE, OR ERROR-FREE.
+**1.4 — The Licensee:**
+Any natural or legal person using the Protected Work under this License.
 
-**6.2. LIMITATION OF LIABILITY.** TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE LICENSOR, ITS REPRESENTATIVES, OR COPYRIGHT HOLDERS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUE, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+**1.5 — The Contributor:**
+Any person providing contributions through official channels.
 
-**6.3. JURISDICTIONAL LIMITATIONS.** Some jurisdictions do not allow the exclusion of implied warranties or the limitation of liability for incidental or consequential damages, which means that some of the above disclaimers and limitations may not apply to You. This license gives You specific legal rights, and You may also have other rights which vary from jurisdiction to jurisdiction. The disclaimers and limitations under this license will not apply to the extent prohibited by applicable law.
+**1.6 — Violation:**
+Any use of the Protected Work contravening the terms of this License 
+or the ethical provisions herein.
 
-### **7. GOVERNING LAW & VENUE**
+**1.7 — Official Channels:**
+Platforms designated by Dhaad Organization for receiving, reviewing, 
+and voting on contributions.
 
-**a. Governing Law:** This license shall be governed by and construed in accordance with the laws of the jurisdiction in which the Licensee resides or operates its primary business, without regard to its conflict of law provisions. For the purposes of this section, "Licensee" refers to "You" as defined in Section 1.
+**1.8 — Official Version:**
+The sole approved version released exclusively by Dhaad Organization.
 
-**b. Venue for Disputes:** Any legal action or proceeding arising under this license shall be instituted in the competent courts of the jurisdiction where the Licensee is located. The Licensor and Licensee irrevocably submit to the exclusive jurisdiction of such courts.
+**1.9 — Annual Revenue (NEW — IMP-01):**
+For the purposes of this License, "Annual Revenue" means:
+- **A)** The total gross revenue of the Licensee's entire legal entity 
+  (parent company and all subsidiaries) for the most recent complete 
+  fiscal year, regardless of whether such revenue is derived from 
+  the Protected Work;
+- **B)** For entities in existence for less than 12 months, Annual 
+  Revenue means annualized revenue based on the most recent quarter 
+  multiplied by 4;
+- **C)** For non-profit organizations and educational institutions, 
+  Annual Revenue means total annual budget;
+- **D)** For government entities, tier assignment is negotiated directly 
+  with the Owner.
 
-**c. Equitable Relief:** The parties acknowledge that a breach of this license may cause irreparable harm for which monetary damages would not be an adequate remedy. Therefore, in addition to any other remedies available, the Licensor shall be entitled to seek injunctive or other equitable relief from any court of competent jurisdiction to prevent or enjoin such a breach.
+**1.10 — Ethical Violation (NEW — IMP-02):**
+For the purposes of Article 12 (Ethical Veto Right), "Ethical Violation" 
+means use of the Protected Work in:
+- **A)** Weapons directed against humans or autonomous killing systems;
+- **B)** Torture systems or inhuman/degrading treatment;
+- **C)** Oppressive surveillance systems violating fundamental human rights;
+- **D)** Financial market manipulation causing deliberate collective harm;
+- **E)** Any application threatening human life, dignity, or fundamental freedom.
 
-### **8. CONTACT INFORMATION**
+Any determination of Ethical Violation shall be subject to the 
+appeal procedure in Article 12.4.
 
-For any questions regarding this license, to request permissions beyond the scope of this license, or to inquire about commercial licensing, you must contact the Licensor at:
-**Hassan Ali Mohammed Ahmed**
-**Email: <shoukr9000@gmail.com>**
+**1.11 — Managed Source-Available (MSA) (NEW — IMP-03):**
+The licensing model of this License, characterized by:
+- **A)** Source code is publicly available for reading, study, and learning;
+- **B)** Use is permitted per tier terms;
+- **C)** Modification and release are exclusive to Dhaad Organization;
+- **D)** Contributions accepted via community voting.
 
-### **9. ACKNOWLEDGMENT**
+**This License is NOT OSI-Approved and does NOT meet the Open Source 
+Definition. It is a Source-Available License with restrictions.**
 
-BY ACCESSING, VIEWING, OR USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS. IF YOU DO NOT AGREE TO ALL THE TERMS AND CONDITIONS OF THIS LICENSE, YOU ARE NOT PERMITTED TO ACCESS, VIEW, OR USE THE SOFTWARE IN ANY MANNER, AND YOU MUST IMMEDIATELY CEASE ANY SUCH ACTIVITY AND DESTROY ANY COPIES OF THE SOFTWARE.
+---
 
-***
-**End of LICENSE**
+# PART TWO: SCOPE OF PROTECTION
+
+## Article 2: Perpetual Protection and Automatic Renewal
+
+**2.1 — Perpetual Protection:**
+Legal protection is granted permanently from the date of first creation 
+(2024) and in perpetuity.
+
+**2.2 — Automatic Renewal:**
+Protection renews automatically in all countries pursuant to the 
+Berne Convention (1886, as amended 1971), the TRIPS Agreement (1994), 
+and the WIPO Copyright Treaty (WCT 1996).
+
+**2.3 — Geographic Scope:**
+Protection extends to all countries of the world — all United Nations 
+member states and all territories — without exception.
+
+**2.4 — Temporal Scope:**
+Protection covers:
+- **A)** All current versions (v5.0.0 through v6.0.0)
+- **B)** All current systems (116 systems — 26 layers)
+- **C)** All future modifications and additions
+- **D)** All future versions (Stage 1, Stage 2, Stage 3)
+
+## Article 3: Comprehensive Scope of Protection
+
+**3.1 — Principle of Comprehensiveness:**
+Protection is comprehensive and non-exhaustive, covering everything 
+connected to the Protected Work — whether current or future — without 
+exception. Lists in this Article are illustrative, not exhaustive.
+
+**3.2 — Protected Categories (Non-Exhaustive):**
+
+| Category                  | Illustrative Examples                     | Build Status |
+| ------------------------- | ----------------------------------------- | ------------ |
+| Systems and Components    | 116 systems — 26 layers                   | ✅ Verified   |
+| Tokens and Keywords       | 592 Tokens                                | ✅ Verified   |
+| Error Codes               | 1,277 Error Codes                         | ✅ Verified   |
+| Node Types                | 740 Node Kinds                            | ✅ Verified   |
+| Handlers                  | 221 Handler Kinds                         | ✅ Verified   |
+| Constraint Types          | 137 Constraint Kinds                      | ✅ Verified   |
+| Mode Types                | 148 Mode Kinds                            | ✅ Verified   |
+| Lexical Types             | 1,423 Lexical Kinds                       | ✅ Verified   |
+| Tests                     | 6,351 Test Cases — 1,068,809 Assertions   | ✅ Verified   |
+| Libraries                 | 27 Libraries                              | ✅ Verified   |
+| Executables               | 7 Executables                             | ✅ Verified   |
+| Lean Proofs               | 8 Modules                                 | ✅ Verified   |
+| Methods and Methodologies | Construction methods, algorithms          | Protected    |
+| Architecture              | Compiler architecture, layering system    | Protected    |
+| Algorithms                | Parsing, generation, verification         | Protected    |
+| Interfaces                | APIs, communication protocols             | Protected    |
+| Syntax and Structures     | Linguistic forms, grammatical structures  | Protected    |
+| Generated Data            | Unicode tables, databases                 | Protected    |
+| Diagrams                  | Build diagrams, dependency diagrams       | Protected    |
+| Documentation             | All documents, instructions, guides       | Protected    |
+| Records                   | Build logs, development logs              | Protected    |
+| Processes                 | Build, deployment, verification processes | Protected    |
+
+**3.3 — Derivative Works:**
+Protection includes all derivative works, including translations, 
+modifications, improvements, alternative interfaces, and any work 
+substantially inspired by the Protected Work.
+
+**3.4 — Future Additions:**
+Protection automatically extends to all new systems, future stages, 
+future versions, and accepted contributions.
+
+**3.5 — Embedded Technical Know-How:**
+Protection includes embedded technical know-how, construction methods, 
+architectural decisions, innovative engineering solutions, unique 
+programming patterns, and optimization strategies.
+
+**3.6 — Patent Grant (NEW — IMP-04):**
+Subject to the terms and conditions of this License, the Owner hereby 
+grants to each Licensee a **perpetual, worldwide, non-exclusive, 
+royalty-free patent license** to make, have made, use, offer to sell, 
+sell, import, and otherwise transfer the Protected Work, where such 
+license applies only to those patent claims licensable by the Owner 
+that are necessarily infringed by their use of the Protected Work.
+
+**3.7 — Patent Non-Assertion Pledge (NEW — IMP-05):**
+The Owner pledges not to assert any patent claims against any Licensee 
+who complies with the terms of this License, EXCEPT in cases of:
+- **A)** Ethical Violations (Article 4-12);
+- **B)** Patent litigation initiated by the Licensee against the Owner 
+  or any other Licensee;
+- **C)** Failure to pay applicable license fees (Article 14).
+
+---
+
+# PART THREE: ETHICAL PROVISIONS — RIGHTS AND OBLIGATIONS
+
+## Article 4: Sanctity of Human Life and Human Dignity
+
+**4.1 — Absolute Prohibition:**
+The use of the Protected Work is strictly and unequivocally prohibited in:
+- **A)** Weapons directed against humans or autonomous killing systems;
+- **B)** Torture systems or inhuman or degrading treatment;
+- **C)** Oppressive surveillance systems violating fundamental human rights;
+- **D)** Financial market manipulation causing deliberate collective harm;
+- **E)** Any application threatening human life, dignity, or fundamental freedom.
+
+**4.2 — Penalties for Violation:**
+Immediate license revocation + legal prosecution + permanent inclusion 
+on the prohibited list.
+
+## Article 5: Right to Health and Safety
+
+**5.1 — Medical Use:**
+Adherence to highest internationally recognized safety standards + 
+passing rigorous certification tests + prior Owner approval for 
+critical uses.
+
+**5.2 — Prohibition:**
+Use in medical systems without approved certification is prohibited.
+
+## Article 6: Environmental Protection and Sustainability
+
+**6.1 — Encouragement:** Use in environmental protection, renewable 
+energy, and sustainability is encouraged.
+
+**6.2 — Prohibition:** Use in projects deliberately harming the 
+environment is prohibited.
+
+## Article 7: Justice, Equality, and Non-Discrimination
+
+**7.1 — Prohibition:** Use in discriminatory systems, systems violating 
+internationally recognized human rights, or systems promoting social 
+injustice is prohibited.
+
+## Article 8: Privacy and Data Protection
+
+**8.1 — Obligation:** Compliance with international privacy laws + 
+data subject consent + right to be forgotten.
+
+**8.2 — Prohibition:** Use in unlawful mass surveillance systems is 
+prohibited.
+
+## Article 9: Cybersecurity
+
+**9.1 — Prohibition:** Development of malicious software, DoS/DDoS 
+attacks, or data theft is prohibited.
+
+**9.2 — Encouragement:** Development of defensive systems protecting 
+critical infrastructure is encouraged.
+
+## Article 10: Transparency and Accountability in Artificial Intelligence
+
+**10.1 — Obligation:** Explainability + human accountability + 
+disclosure of machine nature.
+
+**10.2 — Prohibition:** Building "black box" systems making fateful 
+decisions without transparency is prohibited.
+
+## Article 11: Human Cooperation and Open Knowledge
+
+**11.1 — Encouragement:** Use in projects benefiting humanity, open 
+scientific research, education, and charitable projects is encouraged.
+
+## Article 12: Ethical Veto Right
+
+**12.1 — Veto Right:**
+The Owner retains the ethical veto right over any use of the 
+Protected Work.
+
+**12.2 — Non-Negotiable:**
+This right is non-negotiable, does not lapse by prescription, and 
+does not transfer.
+
+**12.3 — Immediate Effect:**
+The prohibition becomes effective immediately upon announcement.
+
+**12.4 — Appeal Procedure (NEW — IMP-06):**
+Any Licensee subject to an Ethical Veto determination may appeal 
+within **30 calendar days** of notification. The appeal shall be 
+reviewed by an **independent Ethics Committee** composed of:
+- **A)** One member appointed by the Owner;
+- **B)** One member appointed by the Licensee;
+- **C)** One independent member mutually agreed upon.
+
+**12.5 — Timeline (NEW — IMP-07):**
+The Owner shall render a decision on any alleged Ethical Violation 
+within **30 calendar days** of becoming aware of the alleged violation. 
+Failure to render a decision within this period does not waive the 
+Owner's right to do so later, but shall be considered in any 
+subsequent dispute.
+
+**12.6 — Transparency (NEW — IMP-08):**
+All Ethical Veto determinations shall be:
+- **A)** Documented in writing with reasons;
+- **B)** Communicated to the Licensee within 7 days;
+- **C)** Published in anonymized form for community transparency.
+
+---
+
+# PART FOUR: OWNERSHIP RIGHTS AND CONTRIBUTIONS
+
+## Article 13: Contribution Ownership and Development Management
+
+**13.1 — Right of Access:** Source code is available for reading, 
+study, and learning.
+
+**13.2 — Right of Use:** The language is available for use according 
+to license tiers.
+
+**13.3 — Right of Proposal:** Proposals may be submitted through 
+official channels.
+
+**13.4 — Right of Review:** Contributions may be reviewed and 
+commented upon.
+
+**13.5 — Right of Vote:** Registered community members may vote on 
+contributions.
+
+**13.6 — Right of Approval:** Contributions approved by the community 
+are recognized.
+
+**13.7 — Exclusive Merge Right:** Final merging of approved 
+contributions is exclusive to Dhaad Organization.
+
+**13.8 — Exclusive Release Right:** Release of official versions is 
+exclusive to Dhaad Organization.
+
+**13.9 — Exclusive Development Right:** Modification and development 
+are exclusive to Dhaad Organization.
+
+**13.10 — Contributor License Grant (REPLACES 13.10 — IMP-09):**
+By submitting a contribution through official channels, the 
+Contributor grants Dhaad Organization a **perpetual, worldwide, 
+non-exclusive, royalty-free, irrevocable license** to use, reproduce, 
+modify, distribute, sublicense, and otherwise exploit the contribution, 
+in any form and for any purpose, with the right to sublicense through 
+multiple tiers of sublicensees.
+
+**The Contributor retains copyright ownership of their contribution. 
+The grant above does NOT constitute an assignment or transfer of 
+copyright.**
+
+**13.11 — Contribution Registration:** Contributions are registered 
+under the contributor's name.
+
+**13.12 — Compensation:** Contributors may receive compensation as 
+determined by Dhaad Organization.
+
+**13.13 — Recognition:** Contributors are recognized in work 
+documentation.
+
+**13.14 — Moral Rights (NEW — IMP-10):**
+Nothing in this License shall be construed as a waiver of the 
+Contributor's moral rights, including the right of attribution and 
+the right of integrity, to the extent such rights cannot be waived 
+under applicable law.
+
+---
+
+# PART FIVE: LICENSE TERMS
+
+## Article 14: License Tiers
+
+| Tier                    | Price          | Target Category                                 | Attribution  |
+| ----------------------- | -------------- | ----------------------------------------------- | ------------ |
+| **T0 — Universal Free** | $0             | Individuals, Education, Open Source, Non-profit | Required     |
+| **T1 — Startup**        | $500/year      | Annual Revenue < $10M                           | Required     |
+| **T2 — Professional**   | $5,000/year    | Annual Revenue < $100M                          | Required     |
+| **T3 — Enterprise**     | $50,000/year   | Annual Revenue ≥ $100M                          | Preferred    |
+| **T4 — OEM/Platform**   | $250,000/year+ | Hardware, Cloud, Platforms                      | Negotiated   |
+| **T5 — Government**     | Negotiated     | Government, Defense, Intelligence               | Not Required |
+
+**14.1 — Automatic Upgrade:** Upon exceeding revenue thresholds 
+(defined in Article 1.9).
+
+**14.2 — Automatic Downgrade:** Upon ethical violations.
+
+**14.3 — Grace Period (NEW — IMP-11):**
+Licensees exceeding their current tier threshold shall have a 
+**90-day grace period** to upgrade their license without penalty.
+
+**14.4 — Multi-Year Discounts (NEW — IMP-12):**
+Licensees may prepay:
+- 2 years: 10% discount
+- 3 years: 15% discount
+- 5 years: 25% discount
+
+## Article 15: Granted Rights
+
+**15.1 — Use:** Right to use the Protected Work for authorized purposes.
+
+**15.2 — Access:** Right to access the source code.
+
+**15.3 — Proposal:** Right to propose modifications through official 
+channels.
+
+**15.4 — Distribution:** Right to distribute outputs (compiled programs).
+
+**15.5 — Patent License:** Right to use patents as granted in 
+Article 3.6.
+
+**15.6 — Prohibition of Unauthorized Modification:** No right to 
+modify code outside Dhaad Organization.
+
+## Article 16: Restrictions
+
+**16.1 — Modification:** Modification is exclusive to Dhaad Organization.
+
+**16.2 — Release:** Release is exclusive to Dhaad Organization.
+
+**16.3 — Forking:** Creating official alternative forks is prohibited.
+
+**16.4 — Re-licensing:** Re-licensing or sale is prohibited.
+
+**16.5 — Reverse Engineering:** Prohibited without written permission, 
+except to the extent permitted by applicable law.
+
+**16.6 — License Transfer:** Prohibited without written consent.
+
+**16.7 — Removal of Notices (NEW — IMP-13):**
+Licensees may not remove or alter any copyright, patent, trademark, 
+or attribution notices contained in the Protected Work.
+
+---
+
+# PART SIX: ENFORCEMENT AND LITIGATION
+
+## Article 17: Jurisdiction
+
+**17.1 — Multiple Jurisdictions:**
+- **A)** Competent international courts;
+- **B)** Courts of the country of violation;
+- **C)** Courts of the Kingdom of Saudi Arabia (Organization HQ);
+- **D)** Courts of the United States of America (Deposit Country);
+- **E)** Courts of the Arab Republic of Egypt (Deposit Country).
+
+**17.2 — Selection of Most Appropriate:** The Owner selects the 
+most appropriate court based on the violation.
+
+**17.3 — Applicable Law:** International private law and intellectual 
+property laws of the violation country, with preference for the law 
+providing greatest protection.
+
+## Article 18: Penalties
+
+**18.1 — Financial Damages:** Direct and indirect damages + lost 
+profits + legal costs + punitive damages.
+
+**18.2 — Additional Penalties:** Immediate revocation + permanent 
+prohibition + prohibited list + notification to international 
+community.
+
+## Article 19: Dispute Resolution (NEW — IMP-14)
+
+**19.1 — Amicable Resolution:**
+The parties shall first attempt to resolve any dispute amicably 
+within **60 days** of written notice.
+
+**19.2 — Mediation:**
+If amicable resolution fails, the parties shall submit to mediation 
+under the WIPO Mediation Rules.
+
+**19.3 — Arbitration:**
+If mediation fails, the dispute shall be resolved by binding 
+arbitration under the WIPO Arbitration Rules, with the seat of 
+arbitration in Riyadh, Saudi Arabia, unless otherwise agreed.
+
+**19.4 — Language:**
+Arbitration shall be conducted in Arabic and English.
+
+---
+
+# PART SEVEN: DEPOSIT AND DOCUMENTATION
+
+## Article 20: Legal Deposit
+
+**20.1 — Code Deposit:**
+**10%** of the source code has been deposited with accredited 
+deposit authorities.
+
+**20.2 — Deposit Record:**
+
+| Item                     | Details                              |
+| ------------------------ | ------------------------------------ |
+| Deposited Percentage     | 10%                                  |
+| Deposit Countries        | USA — KSA — Egypt                    |
+| Deposit Date             | 2026-05-10                           |
+| Copyright Application    | SA-261295185201                      |
+| Patent Application (PCT) | PCT/SA-1020266164/DHAAD — 2026-07-15 |
+| Trademark Application    | SA-1267997                           |
+
+**20.3 — Effect of Deposit:**
+Legal evidence of creation date, author identity, and original 
+work content.
+
+---
+
+# PART EIGHT: WARRANTY AND LIABILITY
+
+## Article 21: Warranty Disclaimer (NEW — IMP-15)
+
+**21.1 — "AS IS" Basis:**
+THE PROTECTED WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY 
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE 
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, 
+TITLE, AND NON-INFRINGEMENT.
+
+**21.2 — No Warranty of Error-Free Operation:**
+THE OWNER DOES NOT WARRANT THAT THE PROTECTED WORK WILL MEET 
+LICENSEE'S REQUIREMENTS, OPERATE WITHOUT INTERRUPTION, OR BE 
+ERROR-FREE.
+
+**21.3 — Assumption of Risk:**
+THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROTECTED 
+WORK IS WITH THE LICENSEE.
+
+## Article 22: Limitation of Liability (NEW — IMP-16)
+
+**22.1 — Exclusion of Damages:**
+IN NO EVENT SHALL THE OWNER BE LIABLE FOR ANY INDIRECT, INCIDENTAL, 
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF 
+USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+AND ON ANY THEORY OF LIABILITY.
+
+**22.2 — Cap on Liability:**
+THE OWNER'S TOTAL LIABILITY UNDER THIS LICENSE SHALL NOT EXCEED 
+THE AMOUNT PAID BY THE LICENSEE TO THE OWNER IN THE TWELVE (12) 
+MONTHS PRECEDING THE CLAIM.
+
+**22.3 — Exceptions:**
+Nothing in this Article shall limit liability for:
+- **A)** Willful misconduct;
+- **B)** Gross negligence;
+- **C)** Death or personal injury caused by negligence;
+- **D)** Fraud or fraudulent misrepresentation.
+
+---
+
+# PART NINE: FINAL PROVISIONS
+
+## Article 23: Entry into Force
+
+This License enters into force on **2026-09-25** and supersedes 
+all previous versions, including DMEOL-2.0-Universal (2026-05-10).
+
+## Article 24: Amendment
+
+**24.1 — Amendable Provisions:**
+Provisions relating to prices and tiers (Article 14).
+
+**24.2 — Non-Amendable Provisions:**
+Ethical provisions (Articles 4-12), the Veto Right (Article 12), 
+and Exclusive Development Rights (Articles 13.7-13.9).
+
+## Article 25: Severability
+
+If any Article is invalidated by a competent court, the remaining 
+Articles remain in full force.
+
+## Article 26: Authoritative Versions
+
+The Arabic and English versions of this License are equally 
+authoritative. In case of conflict, the Arabic version prevails.
+
+## Article 27: License Model
+
+**27.1 — Definition:**
+This License is a **Managed Source-Available (MSA)** license.
+
+**27.2 — OSI Status:**
+This License is NOT OSI-Approved and does NOT meet the Open 
+Source Definition. It is a Source-Available License with 
+restrictions on modification and redistribution.
+
+**27.3 — Availability:**
+- Code is available for reading and study;
+- The language is available for use per tier;
+- Contribution is available through official channels;
+- Development and release are governed by Dhaad Organization.
+
+## Article 28: Third-Party Components (NEW — IMP-17)
+
+**28.1 — Third-Party Licenses:**
+The Protected Work may include third-party components governed 
+by their own licenses. Such components are identified in the 
+file `THIRD_PARTY_LICENSES.md`.
+
+**28.2 — Compatibility:**
+In case of conflict between this License and a third-party 
+license, the third-party license prevails for the specific 
+component.
+
+**28.3 — Attribution:**
+Attribution requirements for third-party components are 
+documented in `THIRD_PARTY_LICENSES.md`.
+
+## Article 29: Contact (NEW — IMP-18)
+
+**29.1 — Official Contact:**
+- **Email**: legal@dhaad.org
+- **Website**: https://dhaad.org
+- **Address**: Kingdom of Saudi Arabia
+
+**29.2 — License Inquiries:**
+For licensing inquiries: licensing@dhaad.org
+
+**29.3 — Legal Notices:**
+For legal notices: legal@dhaad.org
+
+**29.4 — Security Issues:**
+For security issues: security@dhaad.org
+
+---
+
+```dhaad
+#~> ====================================================================
+#~> END OF LICENSE — DMSAL-2.1.0
+#~> MANAGED SOURCE-AVAILABLE LICENSE — PROFESSIONAL EDITION
+#~> ====================================================================
+#~> DEPOSIT:          USA — KSA — EGYPT (10% Source Code)
+#~> COPYRIGHT:        SA-261295185201 (Saudi Arabia)
+#~> PATENT (PCT):     PCT/SA-1020266164/DHAAD (2026-07-15)
+#~> TRADEMARK:        SA-1267997 (Pending)
+#~> DATE:             2026-09-25
+#~> MODEL:            MANAGED SOURCE-AVAILABLE (MSA)
+#~> TEST CASES:       6,351 | ASSERTIONS: 1,068,809
+#~> LIBRARIES:        27 | EXECUTABLES: 7
+#~> LEAN PROOFS:      8 | FUZZ TARGETS: 3
+#~> SIGNATURE:        0xDHAAD-LICENSE-DMSAL-v2.1.0-2026-09-25
+#~> ====================================================================
+```
+```
