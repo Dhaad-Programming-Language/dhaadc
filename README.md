@@ -1,433 +1,451 @@
-# Dhaad Programming Language v6.0.0 (Omega Ω)
+# Dhaad Programming Language (لغة البرمجة ض/ضاد)
+
+> **Current Version: v0.1.0 — Proof of Concept**
+>
+> A unified programming language aiming to consolidate AI, Quantum Computing, 
+> Cybersecurity, and regulated industries into a single formally-verified platform.
+
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/dhaad-org/dhaad-stage0/actions)
+[![Tests](https://img.shields.io/badge/tests-6%2C351%20passing-brightgreen)](https://github.com/dhaad-org/dhaad-stage0)
+[![Assertions](https://img.shields.io/badge/assertions-1%2C068%2C809-blue)](https://github.com/dhaad-org/dhaad-stage0)
+[![Patent](https://img.shields.io/badge/patent-SA--1020266164-orange)](docs/PATENT.md)
+[![License](https://img.shields.io/badge/license-DMEOL--2.0--Universal-purple)](LICENSE)
 
 ---
 
-## Document Metadata
+## 📋 Table of Contents
 
-| Field             | Value                                                                                     |
-| ----------------- | ----------------------------------------------------------------------------------------- |
-| **Version**       | 6.0.0 Omega (Ω) — Complete Master Specification                                           |
-| **Creator**       | Hassan Ali Mohammed Ahmed Shoukr (Hassan A. Shoukr)                                       |
-| **Organization**  | Dhaad Organization                                                                        |
-| **License**       | DMEOL-2.0-Universal (Perpetual Ethical Edition)                                           |
-| **Governing Law** | International Law — All Nations — All Jurisdictions                                       |
-| **Jurisdiction**  | WORLD-WIDE — ALL COUNTRIES — ALL TERRITORIES                                              |
-| **Copyright**     | © 2024-2026 Dhaad Organization. ALL RIGHTS RESERVED.                                      |
-| **Bloodseal**     | ‡ΩΔ⚡‡                                                                                     |
-| **Substrates**    | `["self", "auto", "adaptive", "universal"]` — for all true real-world intelligent systems |
-| **Blocks**        | dDh, vDh, fDh, lDh, qDh, wDh, cDh, mDh, uDh, sDh                                          |
-| **Core Systems**  | Adaptive Outcomes, Domain Spectrum, CIT Meta-System, D³ Unified Data                      |
-| **Status**        | BUILD-VERIFIED — PRODUCTION-GRADE — STAGE 0 COMPLETE                                      |
+- [What is Dhaad?](#what-is-dhaad)
+- [Current Status](#current-status)
+- [Intellectual Property](#intellectual-property)
+- [Quick Start](#quick-start)
+- [Examples](#examples)
+- [Architecture](#architecture)
+- [Verified Numbers](#verified-numbers)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
-# Dhaad Programming Language: The Universal Adaptive Outcome Command Language
+## What is Dhaad?
 
-## Keywords & Tags
+**Dhaad** is an attempt to build a **unified programming platform** that solves 
+the technical fragmentation problem faced by enterprises and nations:
+
+- **15+ languages and platforms** per domain (Python for AI, Q# for Quantum, 
+  Solidity for Blockchain, ...)
+- **Conflicting security models** across languages
+- **Absence of formal verification** in most production languages
+- **Regulatory compliance difficulty** in regulated sectors (healthcare, 
+  finance, defense)
+
+**Dhaad's vision**: one language, one security model, one verification system, 
+across 116 systems distributed over 26 layers.
+
+> ⚠️ **Honest disclaimer**: This is **Stage 0 (Proof of Concept)**. The language 
+> is still in its infancy. We are seeking **early adopters** and 
+> **co-founders** to transform this specification into a production-grade product.
+
+---
+
+## Current Status
+
+### What Has Been Actually Built (BUILD-VERIFIED)
+
+| Component                        | Status    | Evidence                                |
+| -------------------------------- | --------- | --------------------------------------- |
+| **Core Compiler**                | ✅ Working | `dhaad.exe` builds & passes 6,351 tests |
+| **Lexer**                        | ✅ Working | 592 tokens, 447 keywords, 110 operators |
+| **Parser**                       | ✅ Working | 740 AST nodes in 17 categories          |
+| **Semantic Analysis**            | ✅ Working | 8-pass pipeline                         |
+| **Unified Semantic Tree (UST)**  | ✅ Working | 40 UDNS v8.0 capabilities               |
+| **Code Generation (LLVM 21)**    | ✅ Working | 139 LLVM libraries integrated           |
+| **Package Manager (dpm)**        | ✅ Working | PubGrub SAT resolver                    |
+| **Language Server (LSP 3.17)**   | ✅ Working | 26 custom + 35 standard methods         |
+| **Code Formatter (dhaad-fmt)**   | ✅ Working | 8-pass pipeline                         |
+| **Doc Generator (dhaad-doc)**    | ✅ Working | 8 document types                        |
+| **Interactive REPL**             | ✅ Working | 15 commands                             |
+| **Formal Verification**          | ⚠️ Partial | 8 Lean 4 modules (of 10 planned)        |
+| **Standard Library (dhaad-std)** | ⚠️ Partial | 18 modules (of 50+ planned)             |
+| **Fuzzing**                      | ⚠️ Partial | 3 targets (requires Clang)              |
+
+### What Is NOT Yet Done (Honestly)
+
+- ❌ **No external users** yet
+- ❌ **No engineering team** (single founder currently)
+- ❌ **No industrial or academic partners** formally
+- ❌ **No regulatory certifications** (ISO, DO-178C, ...) — planned for future years
+- ❌ **64 of 116 systems** deferred to Stage 2
+
+---
+
+## Intellectual Property
+
+This project is **officially registered** with the Saudi Authority for 
+Intellectual Property (SAIP):
+
+| Type          | Number          | Status     | Date                       |
+| ------------- | --------------- | ---------- | -------------------------- |
+| **Patent**    | SA-1020266164   | ✅ Filed    | 1448/01/10 AH (2026-07-10) |
+| **Copyright** | SA-261295185201 | ✅ Complete | 2020-07-26                 |
+| **Trademark** | SA-1267997      | ⏳ Pending  | -                          |
+
+📎 Full documentation in [`docs/ip/`](docs/ip/).
+
+**Owner**: Hassan Ali Mohammed Ahmed Shoukr  
+**Organization**: Dhaad Organization
+
+---
+
+## Quick Start
+
+### Prerequisites
+
+| Component  | Version | Notes                        |
+| ---------- | ------- | ---------------------------- |
+| **CMake**  | 4.0+    |                              |
+| **MSVC**   | 19.44+  | Windows (Visual Studio 2022) |
+| **Clang**  | 18+     | Linux/macOS + Fuzzing        |
+| **GCC**    | 14+     | Linux                        |
+| **Python** | 3.10+   | For code generators          |
+| **LLVM**   | 21.1.1  | Download from llvm.org       |
+| **vcpkg**  | latest  | For external dependencies    |
+
+### Windows Build (MSVC)
+
+```powershell
+# 1. Clone repository
+git clone https://github.com/dhaad-org/dhaad-stage0.git
+cd dhaad-stage0
+
+# 2. Setup vcpkg (if not installed)
+git clone https://github.com/microsoft/vcpkg.git C:/vcpkg
+C:/vcpkg/bootstrap-vcpkg.bat
+C:/vcpkg/vcpkg install nlohmann-json fmt doctest
+
+# 3. Generate build files
+cmake -B build/release -G "Visual Studio 17 2022" -A x64
+
+# 4. Build
+cmake --build build/release --config Release
+
+# 5. Run tests
+.\build\release\Release\dhaad_test_runner.exe
+```
+
+### Linux/macOS Build
+
+```bash
+# 1. Clone
+git clone https://github.com/dhaad-org/dhaad-stage0.git
+cd dhaad-stage0
+
+# 2. Dependencies (Ubuntu)
+sudo apt install cmake ninja-build clang-18 libllvm21-dev \
+                 nlohmann-json3-dev libfmt-dev doctest-dev
+
+# 3. Build
+cmake -B build/release -G Ninja \
+      -DCMAKE_BUILD_TYPE=Release \
+      -DCMAKE_CXX_COMPILER=clang++-18
+cmake --build build/release
+
+# 4. Test
+./build/release/dhaad_test_runner
+```
+
+### Expected Output
 
 ```
-programming-language adaptive-systems outcome-commanding domain-spectrum
-universal-compilation intelligent-execution semantic-preservation context-aware
-self-optimizing cross-platform safety-critical robotics quantum-computing
-ai-integration iot edge-computing stream-processing formal-verification
-dhaad-data-development unified-data machine-learning autonomous-systems
-real-time embedded cloud-native enterprise-systems developer-experience
-intelligent-tooling adaptive-computation context-aware-systems
-self-optimizing-systems learning-systems autonomous-computation
-ai-assisted-development edge-intelligence cloud-adaptation mobile-optimization
-embedded-intelligence quantum-hybrid distributed-adaptation
-real-time-optimization resource-aware-computation adaptive-enterprise
-intelligent-governance self-optimizing-systems business-adaptation
-cost-intelligence performance-optimization scaling-intelligence
+[doctest] test cases:    6351 |    6351 passed | 0 failed
+[doctest] assertions: 1068809 | 1068809 passed | 0 failed
+[doctest] Status: SUCCESS!
 ```
 
 ---
 
-## Executive Summary
+## Examples
 
-Dhaad (ض) is the world's first **Universal Adaptive Outcome Command Language** — a professional-grade, future-proof programming language that intelligently orchestrates execution while preserving semantic intent across all 116 computational domains.
-
-Named after the distinctive Arabic letter **"ض" (Ḍād)** — the only language in the world to contain this phoneme — Dhaad transforms programming from static computation to dynamic, context-aware outcome commanding.
-
-### Key Statistics (Build-Verified)
-
-| Metric                | Value                                                           |
-| --------------------- | --------------------------------------------------------------- |
-| **Total Files**       | 459                                                             |
-| **Libraries**         | 25 (static)                                                     |
-| **Executables**       | 6 (dhaad, dpm, dhaad-lsp, dhaad-fmt, dhaad-doc, dhaad-repl)     |
-| **Test Cases**        | 6,358+ — ALL PASSING                                            |
-| **Assertions**        | 3,616,209+ — ALL PASSING                                        |
-| **Tokens**            | 592 (447 keywords + 110 operators + 15 literals + 6 synthetics) |
-| **Node Kinds**        | 740 (17 categories)                                             |
-| **Handlers**          | 221 (16 selectors, 15 adaptations, 20 categories)               |
-| **Constraints**       | 137 (30 categories)                                             |
-| **Modes**             | 148 (21 sections)                                               |
-| **Dispatch Entries**  | 1,246 (100% coverage)                                           |
-| **UDNS Capabilities** | 40/40                                                           |
-| **Lean Theorems**     | 144                                                             |
-| **Error Codes**       | 1,277 (28 categories)                                           |
-| **Precedence Levels** | 16                                                              |
-| **Visitor Methods**   | 45+                                                             |
-
----
-
-## Core Philosophy: The Adaptive Outcome Principle
-
-> **"Same Intent, Optimally Different Execution"**
-
-Traditional programming produces consistent but suboptimal behavior across environments. Dhaad produces **semantically consistent outcomes** with **intelligently optimized execution** for each context.
+### Example 1: Hello World
 
 ```dhaad
-# Traditional: Same code, same execution everywhere
-result = compute(input)  # Potentially slow on mobile, wasteful in cloud
+#~> FILE: hello.dh
+#~> LICENSE: DMEOL-2.0-Universal
 
-# Dhaad: Same semantics, optimized execution per environment
-fDh intelligent_computation(input: Data): Result
-  =
-    [domain_strategy: fluid(adaptation)];
+dDh HelloWorld =
+  fDh main(): Int32 =
+    println("Hello, Dhaad!")
+    return 0
   =>
-    result.adapt?
-    # Mobile: Efficient, battery-aware
-    # Cloud: Scalable, cost-optimized
-    # Edge: Low-latency, autonomous
-    # Embedded: Deterministic, safe
-    #!!! ensures: result.semantically_preserved;
-    #cit strategy: [
-      (mobile: [efficient, battery_aware]),
-      (cloud: [scalable, cost_optimized]),
-      (edge: [low_latency, autonomous]),
-      (embedded: [deterministic, safe])
-    ]
+    .return
 ```
 
----
+**Run**:
+```bash
+dhaad hello.dh -o hello.o
+dhaad hello.dh --format ll      # Show LLVM IR
+```
 
-## What Makes Dhaad Revolutionary?
-
-### 1. Adaptive Outcome Commanding
+### Example 2: Math Function
 
 ```dhaad
-fDh autonomous_surgical_system(patient: Scan, procedure: Plan): (Movement, Confidence, Log)
-  =
-    movement = ai_surgical_plan(patient, procedure);
-    confidence = calculate_success_probability(movement);
-    log = create_surgical_log(procedure, movement);
-    [medical, ai_guided, safety_critical, adaptive];
-    [domain_strategy:
-      preferred: centric(medical),
-      contexts: [
-        (surgery: centric(safety_first)),
-        (training: layered(safe_simulation)),
-        (research: fluid(experimental))
-      ]
-    ];
-  =>
-    movement.actuate?,
-    confidence.assess?,
-    log.record?
-    #!!! ensures: movement.safe and confidence.accurate;
-    #cit strategy: [
-      (surgical_robot: [certified, deterministic, safe]),
-      (simulation: [learnable, safe, educational]),
-      (research: [experimental, instrumented, learnable])
-    ]
+dDh Fibonacci =
+  fDh fib(n: Int32): Int32 =
+    constraints: { require: n >= 0 }
+    =
+      if n <= 1 then n
+      else fib(n - 1) + fib(n - 2)
+    =>
+      .return
+      .check
 ```
 
-### 2. Domain Spectrum Intelligence
-
-| Strategy   | Purpose             | Execution Intelligence        |
-| ---------- | ------------------- | ----------------------------- |
-| `layered`  | Universal code      | Cross-domain compatibility    |
-| `centric`  | Specialized domains | Domain-specific optimization  |
-| `fluid`    | Adaptive systems    | Context-aware behavior        |
-| `fractal`  | Complex systems     | Multi-scale coordination      |
-| `emergent` | Learning systems    | Pattern discovery & evolution |
-
-### 3. CIT Meta-System: Universal Compilation
+### Example 3: Certified Mode
 
 ```dhaad
-fDh universal_ai_inference(model: Model, input: Data): Prediction
-  =>
-    prediction.adapt?
-    #cit strategy: [
-      (cloud_gpu: [high_throughput, batch_optimized]),
-      (mobile: [low_power, efficient, private]),
-      (edge: [low_latency, autonomous, efficient]),
-      (quantum: [hybrid_execution, quantum_enhanced])
-    ]
-    # Single codebase → Optimized for each target
-    # Performance within 2-5% of hand-optimized code
+dDh CriticalSystem =
+  [mode: { rigor: certified, verification: formal }]
+  fDh compute(x: Int32): Int32 =
+    constraints: {
+      require: x > 0,
+      ensure: result > x
+    }
+    =
+      x * 2
+    =>
+      .return
+      .prove
 ```
 
-### 4. D³ Unified Data Ecosystem
-
-```dhaad
-fDh unified_data_processing(sources: MultiDatabaseQuery): Insights
-  =
-    unified_data = query_unified(sources);
-    insights = analyze_cross_domain(unified_data);
-    [data_unified, intelligent, adaptive];
-  =>
-    insights.serve?
-    #cit strategy: [
-      (oltp: [transactional, consistent]),
-      (olap: [analytical, scalable]),
-      (real_time: [streaming, low_latency])
-    ]
-```
+📚 **More examples** in [`examples/`](examples/).
 
 ---
 
-## Complete Architecture: 26 Layers, 116 Systems
+## Architecture
 
-| Layer | Domain                  | Systems | Key Highlights                                              |
-| ----- | ----------------------- | ------- | ----------------------------------------------------------- |
-| 1     | Core Language           | 8       | UDCS, UDGS, UDPS, UDTCS, UDMS, UDCS_Constraint, UDOHS, UDBS |
-| 2     | Compiler Infrastructure | 7       | UDNS (40 caps), UDES (1,277 codes), UDMMS (Arena), UDCPS    |
-| 3     | Semantic & Verification | 7       | UDFSS (6 frameworks), UDI (33 math), UDTQS, UDEMS           |
-| 4     | Package & Distribution  | 6       | UDPMS (PubGrub), UDMEOSS (DMEOL), UDDCS, UDPS               |
-| 5     | Quantum Computing       | 6       | qDh (35 gates), UDQSIM, UDQEC (Surface Code)                |
-| 6     | Hardware & Systems      | 6       | UDDS_GPU (28 tokens), UDDS_IR (7 targets), UDHAL            |
-| 7     | AI & Machine Learning   | 6       | UDI_ML (27 tokens), UDLLM (6 providers), UDAgent            |
-| 8     | Visualization & XR      | 7       | UDVS (23 tokens), UDVR, UDAR, UDSpatial                     |
-| 9     | Web & Network           | 6       | wDh, UDHTTP (HTTP/2/3), UDWS, UDAPI, UDCDN                  |
-| 10    | Security & Identity     | 7       | UDSCS (18 crypto), UDIAM, UDZTA, UDSIEM                     |
-| 11    | Data & Streaming        | 9       | UDStream, UDCDC, UDETL, UDDS_L1-L7                          |
-| 12    | Compiler Extensibility  | 6       | UDCES (14 kinds), UDPlugin, UDLint, UDFmt                   |
-| 13    | Game Development        | 5       | UDGame (ECS), UDPhys, UDAudio, UDAnim                       |
-| 14    | Robotics                | 5       | UDRobotics (ROS2), UDSLAM, UDPath                           |
-| 15    | Bioinformatics          | 5       | UDBio (FHIR), UDGen, UDProt, UDDrug                         |
-| 16    | Finance                 | 5       | UDFinance (VaR), UDTrading, UDRisk                          |
-| 17    | NLP                     | 4       | UDNLP, UDLLM, UDRAG, UDDialog                               |
-| 18    | Computer Vision         | 4       | UDCV (YOLO, SAM), UDDet, UDSeg                              |
-| 19    | XR                      | 3       | UDXR, UDVR, UDAR                                            |
-| 20    | Audio/Video             | 4       | UDAV, UDCodec, UDStream, UDMusic                            |
-| 21    | Edge & IoT              | 4       | UDEdge, UDIoT, UDOTA, UDTinyML                              |
-| 22    | Sustainability          | 3       | UDSustain, UDCarbon, UDGreen                                |
-| 23    | Digital Twin            | 4       | UDTwin, UDSim, UDPredict, UDFleet                           |
-| 24    | Blockchain              | 4       | UDBlockchain, UDSmart, UDDeFi, UDNFT                        |
-| 25    | Scientific              | 5       | UDSci, UDNum, UDODE, UDMC, UDHPC                            |
-| 26    | Cross-Cutting           | 8       | TokenKinds, DiagKinds, NodeKinds, Unicode, Logging          |
+### Seven Tiers (Phase 0)
 
----
+```
+┌─────────────────────────────────────────────────────────────┐
+│  Tier 7: Tests & Verification                              │
+├─────────────────────────────────────────────────────────────┤
+│  Tier 6: UDOHS, AST & Visualization                        │
+├─────────────────────────────────────────────────────────────┤
+│  Tier 5: Generated Files (BUILD-TIME)                      │
+│          NodeKinds.inc · TokenKinds.gen.h · UnicodeTables  │
+├─────────────────────────────────────────────────────────────┤
+│  Tier 4: Third-Level Dependencies                          │
+│          SourceManager · BlockSystem · ThreadPool          │
+├─────────────────────────────────────────────────────────────┤
+│  Tier 3: Second-Level Dependencies                         │
+│          StringPool · SymbolTable · FileSystem · Grid      │
+├─────────────────────────────────────────────────────────────┤
+│  Tier 2: Error Recovery & Diagnostics Base                 │
+│          Diagnostic · ErrorRecovery · DiagnosticsBase      │
+├─────────────────────────────────────────────────────────────┤
+│  Tier 1: First-Level Dependencies                          │
+│          Arena · StringPool · SmallVector · ArrayRef       │
+├─────────────────────────────────────────────────────────────┤
+│  Tier 0: Absolute Foundation                               │
+│          Math · Symbol · SourceLocation · Result · Option  │
+└─────────────────────────────────────────────────────────────┘
+```
 
-## The Ten Sovereign Blocks with Intelligence
+### Full Pipeline (Phases 0-7)
 
-```dhaad
-# Complete Block System (UDBS v3.0)
-# 10×10 Sovereignty Matrix — 50 Containment Pairs
-
-dDh (Data Definition)      — Adaptive truth definition
-vDh (Variable & State)     — Context-aware state management
-fDh (Function Computation) — Intelligent work units
-lDh (Logic & Behavior)     — Adaptive orchestration
-qDh (Quantum & Hardware)   — Hardware-aware computation
-wDh (Web & Full-Stack)     — Client-adaptive interfaces
-cDh (Class Composition)    — Environment-aware composition
-mDh (Module & Namespace)   — Deployment-aware organization (ALL-block)
-uDh (Tools & Extensions)   — Context-sensitive tooling (ALL-block exemption)
-sDh (System Architecture)  — Environment-adaptive architecture (ALL-block)
+```
+Source.dh
+  │
+  ▼
+┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐
+│  Lexer   │──▶│  Parser  │──▶│ Semantic │──▶│   UST    │
+│ (Phase 1)│   │ (Phase 2)│   │ (Phase 3)│   │ (Phase 4)│
+└──────────┘   └──────────┘   └──────────┘   └──────────┘
+                                                    │
+                                                    ▼
+                              ┌──────────┐   ┌──────────┐
+                              │  LLVM 21 │◀──│ CodeGen  │
+                              │ Backend  │   │ (Phase 5)│
+                              └──────────┘   └──────────┘
+                                                    │
+                                                    ▼
+                                              Binary (.o/.exe)
 ```
 
 ---
 
-## Key Innovations (All Build-Verified)
+## Verified Numbers
 
-### ✅ 1. Semantic Preservation
-- **144 Lean 4 theorems** formally verify type soundness
-- Guaranteed outcome meaning across ALL 5 adaptation tiers
-- Mathematical verification: ⟦compile(e)⟧ = ⟦e⟧
-- 1,246 dispatch entries with 100% coverage
+**These numbers are extracted from the actual build log** 
+(MSVC 19.44, Windows 10):
 
-### ✅ 2. Intelligent Adaptation
-- **5 Domain Strategies**: layered, centric, fluid, fractal, emergent
-- **16 Selectors**: Result, Self, Named, Wildcard, Value, Answer, State, Error, Context, Proof, Event, Time, Config, Metric, Stream, Batch
-- **15 Adaptations**: fixed, optional, required, emergent + 11 domain-specific
-- **8 Substrates**: CPU, GPU, FPGA, TPU, Quantum, Neuromorphic, Web, Edge
+| Metric                | Count         | Notes           |
+| --------------------- | ------------- | --------------- |
+| **Test Cases**        | **6,351**     | ✅ All passing   |
+| **Assertions**        | **1,068,809** | ✅ All passing   |
+| **Tokens**            | **592**       | ✅ Verified      |
+| **Keywords**          | **447**       | ✅ Verified      |
+| **Operators**         | **110**       | ✅ Verified      |
+| **Node Kinds**        | **740**       | ✅ 17 categories |
+| **Handlers**          | **221**       | ✅ 20 categories |
+| **Constraints**       | **137**       | ✅ 30 categories |
+| **Modes**             | **148**       | ✅ 21 sections   |
+| **Error Codes**       | **1,277**     | ✅ 28 categories |
+| **Libraries Built**   | **27**        | ✅ ZERO warnings |
+| **Executables**       | **7**         | ✅ Working       |
+| **LLVM Libraries**    | **139**       | ✅ LLVM 21.1.1   |
+| **Compiler Warnings** | **0**         | ✅ Under /W4 /WX |
 
-### ✅ 3. Unified Development (D³)
-- Single codebase for ALL 116 domains
-- Consistent semantics across all storage systems
-- Automated optimization via CIT Meta-System
-
-### ✅ 4. Enterprise-Grade Safety
-- **4 Sanitizers**: ZERO errors
-- **3 Fuzz Targets**: ZERO crashes (24h)
-- **Memory Stress**: 10,000 iterations
-- **SLSA Level 3** provenance
+> 📊 **Transparency Note**: Numbers mentioned in some older documents 
+> (e.g., "3,616,209 assertions") were **exaggerated**. The numbers above 
+> are the **actual numbers from the latest build log**.
 
 ---
 
-## Real-World Intelligent Applications
+## Roadmap
 
-### Adaptive Healthcare
-```dhaad
-fDh intelligent_patient_care(patient: Patient, sensors: Stream): (Treatment, Alert?)
-  =
-    treatment = plan_adaptive_treatment(patient, sensors);
-    alert = detect_critical_changes(patient, sensors)?;
-    [medical, adaptive, safety_critical];
-    [domain_strategy:
-      preferred: fluid(patient_care),
-      contexts: [
-        (icu: centric(continuous_monitoring)),
-        (ward: layered(periodic_checking)),
-        (home: fluid(adaptive_monitoring))
-      ]
-    ];
-  =>
-    treatment.administer?,
-    alert?.respond
-    #!!! ensures: treatment.safe and alert.timely;
+### Stage 0 — Proof of Concept (2026) ✅
+
+- [x] Core compiler (Phases 0-5)
+- [x] Package manager (Phase 6)
+- [x] Language server (Phase 7)
+- [x] Basic formal verification (Phase 8)
+- [x] IP registered
+
+### Stage 1 — Self-Hosting (2027) 🎯
+
+- [ ] Compiler compiles itself (Self-Hosting)
+- [ ] 10+ external developers
+- [ ] 100+ GitHub stars
+- [ ] Complete standard library (50+ modules)
+- [ ] First regulatory certification (HIPAA or PCI-DSS)
+
+### Stage 2 — Expansion (2028-2029)
+
+- [ ] Complete all 116 systems
+- [ ] 1,000+ developers
+- [ ] 10 paying companies
+- [ ] ISO 26262, DO-178C certifications
+- [ ] Full quantum integration
+
+### Stage 3 — Maturity (2030+)
+
+- [ ] 10,000+ developers
+- [ ] $10M+ ARR
+- [ ] Full regulatory certifications
+- [ ] Government adoption
+
+📎 **Full details** in [`docs/roadmap/`](docs/roadmap/).
+
+---
+
+## Contributing
+
+We welcome contributions! But this is an **early stage**, and we are 
+specifically looking for:
+
+### 🎯 What We Need
+
+1. **Co-founders**:
+   - CTO with compiler engineering experience
+   - Chief Scientist in type theory or formal verification
+   - Head of Community
+
+2. **Technical Contributors**:
+   - C++20 developers with compiler experience
+   - Lean 4 / Coq experts
+   - TypeScript developers (VS Code extension)
+
+3. **Early Adopters**:
+   - University researchers
+   - Startup engineering teams
+   - Independent developers
+
+### 📝 How to Contribute
+
+```bash
+# 1. Fork the repository
+git clone https://github.com/YOUR_USERNAME/dhaad-stage0.git
+
+# 2. Create a branch
+git checkout -b feature/my-contribution
+
+# 3. Build and test
+cmake -B build -G "Visual Studio 17 2022"
+cmake --build build --config Release
+./build/Release/dhaad_test_runner.exe
+
+# 4. Commit
+git commit -m "Add: my contribution"
+
+# 5. Push and open a Pull Request
+git push origin feature/my-contribution
 ```
 
-### Intelligent Manufacturing
-```dhaad
-fDh smart_production_line(products: Stream): (Quality, Optimization)
-  =
-    quality = assess_adaptive_quality(products);
-    optimization = calculate_production_optimizations(quality);
-    [manufacturing, intelligent, adaptive];
-  =>
-    quality.control?,
-    optimization.adapt?
-    #cit strategy: [
-      (high_volume: [efficient, high_throughput]),
-      (high_precision: [accurate, detailed]),
-      (experimental: [learnable, innovative])
-    ]
+📎 **Full guide** in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+---
+
+## License
+
+This project is licensed under **DMEOL-2.0-Universal (Perpetual Ethical Edition)**.
+
+| Category                   | Price        | Terms       |
+| -------------------------- | ------------ | ----------- |
+| **Individual & Education** | Free         | Attribution |
+| **Open Source**            | Free         | Attribution |
+| **Startup** (< $10M)       | $500/year    | Attribution |
+| **Professional** (< $100M) | $5,000/year  | Attribution |
+| **Enterprise** (>= $100M)  | $50,000/year | Negotiated  |
+| **Government**             | Negotiated   | Negotiated  |
+
+📎 **Full text** in [`LICENSE`](LICENSE) and [`docs/licensing/`](docs/licensing/).
+
+---
+
+## Contact
+
+- **GitHub Issues**: [github.com/dhaad-organization/dhaad-stage0/issues](https://github.com/dhaad-org/dhaad-stage0/issues)
+- **GitHub Discussions**: [github.com/dhaad-organization/dhaad-stage0/discussions](https://github.com/dhaad-org/dhaad-stage0/discussions)
+- **Email**: contact@dhaad.org
+- **Website**: [dhaad.org](https://dhaad.org) (under construction)
+
+---
+
+## Acknowledgments
+
+- **MSVC 19.44** — Windows build
+- **LLVM 21.1.1** — Backend
+- **vcpkg** — Dependency management
+- **doctest** — Testing framework
+- **Lean 4** — Formal verification
+
+---
+
+## Project Status
+
+**Status**: 🟡 **Proof of Concept**
+
+- ✅ Compiler works
+- ✅ Tests pass
+- ✅ IP registered
+- ⚠️ No external users yet
+- ⚠️ No team yet
+- ⚠️ 64 systems deferred
+
+**We invite co-founders and early adopters to join.**
+
+---
+
+<div align="center">
+
+**© 2024-2026 Dhaad Organization. All Rights Reserved.**
+
+Made with 🖤 in the Kingdom of Saudi Arabia
+
+[Patent SA-1020266164](docs/PATENT.md) · [Copyright SA-261295185201](docs/COPYRIGHT.md) · [Trademark SA-1267997](docs/TRADEMARK.md)
+
+</div>
 ```
-
-### Cross-Platform AI Services
-```dhaad
-fDh universal_ai_service(input: Data): Intelligence
-  =
-    intelligence = process_adaptive_ai(input);
-    [ai, cross_platform, intelligent];
-  =>
-    intelligence.serve?
-    #!!! ensures: intelligence.consistent_semantics;
-```
-
----
-
-## Formal Guarantees (All Build-Verified)
-
-| Guarantee             | Verification            | Status     |
-| --------------------- | ----------------------- | ---------- |
-| Semantic Invariance   | 144 Lean theorems       | ✅ PROVEN   |
-| Type Soundness        | Progress + Preservation | ✅ PROVEN   |
-| Parser Correctness    | Roundtrip + Termination | ✅ PROVEN   |
-| Semantic Preservation | ⟦compile(e)⟧ = ⟦e⟧      | ✅ PROVEN   |
-| Cardinality Soundness | 22 formulas             | ✅ PROVEN   |
-| Handler Completeness  | 221 handlers            | ✅ VERIFIED |
-| Memory Safety         | No use-after-free       | ✅ VERIFIED |
-| Concurrency Safety    | No deadlock, no races   | ✅ VERIFIED |
-| Zero Sanitizer Errors | 4 sanitizers            | ✅ VERIFIED |
-| Zero Fuzz Crashes     | 24h × 3 targets         | ✅ VERIFIED |
-
----
-
-## Getting Started
-
-```dhaad
-# Level 1: Basic Adaptation
-fDh simple_computation(): Result
-  =>
-    result.adapt?
-
-# Level 2: Domain Intelligence
-fDh domain_aware_computation(): Result
-  =
-    [domain_strategy: fluid(adaptation)];
-  =>
-    result.adapt?
-
-# Level 3: Full Intelligence
-fDh intelligent_system(): (Result, Optimization*)
-  =
-    [domain_strategy:
-      preferred: fluid(intelligence),
-      contexts: [
-        (production: centric(reliability)),
-        (development: layered(debuggable)),
-        (research: emergent(innovation))
-      ]
-    ];
-  =>
-    result.adapt?,
-    optimization*.learn?
-```
-
----
-
-## Installation
-
-| Platform | Command                                                               |
-| -------- | --------------------------------------------------------------------- |
-| Windows  | `dhaad-0.1.0-installer.exe`                                           |
-| Linux    | `sudo dpkg -i dhaad_0.1.0_amd64.deb`                                  |
-| macOS    | `brew install dhaad`                                                  |
-| Source   | `cmake -B build && cmake --build build && sudo cmake --install build` |
-
----
-
-## Documentation
-
-| Document             | Path                     |
-| -------------------- | ------------------------ |
-| Specification v6.0.0 | SPECIFICATION.md         |
-| Release Notes        | RELEASE_NOTES.md         |
-| Changelog            | CHANGELOG.md             |
-| Migration Guide      | docs/Stage1/Migration.md |
-
----
-
-## Support
-
-| Channel | Link                            |
-| ------- | ------------------------------- |
-| GitHub  | https://github.com/dhaad/stage0 |
-| Website | https://dhaad.org               |
-| Email   | contact@dhaad.org               |
-
----
-
-## Vision
-
-> **"From static computation to intelligent adaptation — Dhaad transforms programming from writing instructions to orchestrating intelligent execution across all computational contexts."**
-
-Dhaad (ض) represents the next evolutionary step in programming languages — the intelligent foundation for systems that understand their purpose, adapt to their context, and guarantee their behavior across all 116 computational domains.
-
----
-
-## Copyright
-
-```
-Copyright © 2024-2026 Dhaad Organization. ALL RIGHTS RESERVED.
-Owner: Hassan Ali Mohammed Ahmed Shoukr (Hassan A. Shoukr)
-License: DMEOL-2.0-Universal (Perpetual Ethical Edition)
-Governing Law: International Law — All Nations — All Jurisdictions
-Jurisdiction: WORLD-WIDE — ALL COUNTRIES — ALL TERRITORIES
-Bloodseal: ‡ΩΔ⚡‡
-```
-
----
-
-## Tags
-
-```
-dhaad adaptive-programming intelligent-systems outcome-commanding
-domain-spectrum universal-compilation semantic-preservation context-aware
-self-optimizing cross-platform safety-critical ai-integration
-quantum-computing edge-intelligence enterprise-adaptation
-developer-intelligence dhaad-data-development unified-data
-machine-learning autonomous-systems formal-verification
-```
-
----
-
-### *Dhaad (ض): Where computation meets intelligence, and every outcome commands its optimized destiny.*
-
----
